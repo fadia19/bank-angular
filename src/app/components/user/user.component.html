@@ -1,0 +1,16 @@
+<div style="text-align:center">
+  <h1>
+Create User  </h1>
+</div>
+<div>
+  <form>
+    <label>User Name </label>
+    <input type="text" placeholder="UserName" [(ngModel)]="username" name="username" />
+    <br><br>
+    <label>Password </label>
+    <input type="password" placeholder="Password" [(ngModel)]="password" name="password"/>
+    <br><br>
+      <a routerLink="/view-data" routerLinkActive="active" (click)="getUser()"> Create User</a>
+  </form>
+</div>
+

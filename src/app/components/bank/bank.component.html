@@ -1,0 +1,17 @@
+<div style="text-align:center">
+  <h1>
+Create Bank   </h1>
+</div>
+<div>
+  <form>
+    <label>Bank Name </label>
+    <input type="text" placeholder="bank name" [(ngModel)]="name" name="name" />
+    <br><br>
+    <label>Bank Code </label>
+    <input type="number" placeholder="bank code" [(ngModel)]="code" name="code" />
+    <br><br>
+   <a routerLink="/create-user" routerLinkActive="active" (click)="getBank()"> Create Bank</a>
+  </form>
+</div>
+
+
